@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic page setup -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jose Almonte — Resume & Portfolio</title>
+  <meta name="description" content="Resume and project portfolio of Jose Almonte — IT intern, QA, support tech. Conti Federal, Dave & Busters.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header with name, photo, and quick contact info -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="profile">
+        <div class="profile-info">
+          <h1 id="name">Jose Almonte</h1>
+          <!-- Profile photo -->
+          <img src="images/Profile.jpg" alt="Jose Almonte — professional portrait" class="profile-photo" width="160" height="160">
+
+          <!-- Contact information -->
+          <p class="contact">
+            <a href="mailto:joselalmonte6@gmail.com">joselalmonte6@gmail.com</a>
+            <span aria-hidden="true"> · </span>
+            <a href="tel:+14077155801">407-715-5801</a>
+          </p>
+          <p class="contact muted">
+            Kissimmee, Florida · 
+            <a href="https://www.linkedin.com/in/jose-almonte-51231827a" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+
+          <!-- Objective summary -->
+          <p class="objective">
+            Professional objective: Seeking an entry-level IT/Support role leveraging helpdesk experience, Active Directory knowledge, and troubleshooting skills to deliver reliable technical support.
+          </p>
+
+          <!-- Resume links -->
+          <p class="resume-links">
+            <a class="btn-outline" href="files/jose-almonte-resume.pdf" download>Download Resume (PDF)</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Main navigation menu -->
+      <nav class="top-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certs">Certifications</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main resume content -->
+  <main id="main" class="container">
+    
+    <!-- Education section -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <div class="two-col">
+        <div>
+          <h3>University of Central Florida</h3>
+          <p class="muted">Bachelor of Science in Information Technology — Expected December 2025</p>
+          <p class="muted">Current GPA: 3.7</p>
+        </div>
+        <div>
+          <h3>Professional & Technical High School <small>(Dual Enrollment at Valencia College)</small></h3>
+          <p class="muted">Graduated May 2023 · GPA: 3.8</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications section -->
+    <section id="certs" class="card">
+      <h2>Certifications & Coursework</h2>
+      <ul class="bullets">
+        <li><strong>CompTIA:</strong> A+, Network+, Security+</li>
+        <li>Relevant courses: Computer Science I, Computer Logic & Organization, Technical Writing</li>
+      </ul>
+    </section>
+
+    <!-- Work experience section -->
+    <section id="experience" class="card">
+      <h2>Professional Experience</h2>
+
+      <article class="job">
+        <h3>Conti Federal — IT Intern</h3>
+        <p class="meta">June 2024 – August 2024</p>
+        <ul class="bullets">
+          <li>Assisted the service desk: triaged tickets, configured new hire workstations, and provided desktop support.</li>
+          <li>Performed Active Directory tasks and participated in AD audit activities (limited privileges).</li>
+          <li>Created documentation for onboarding steps and basic troubleshooting guides.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Dave &amp; Busters — Support Technician</h3>
+        <p class="meta">March 2024 – Present</p>
+        <ul class="bullets">
+          <li>Repair and maintain building facilities, games, simulators, and technical equipment.</li>
+          <li>Communicated with guests and managers to resolve issues and ensure a smooth experience.</li>
+          <li>Maintained organization, restocked merchandise, and ensured equipment functionality and safety.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Advon Commerce — QA Analyst</h3>
+        <p class="meta">June 2023 – March 2024</p>
+        <ul class="bullets">
+          <li>Performed QA testing and tracked defects using an established workflow.</li>
+          <li>Conducted content reviews and provided iterative improvements based on feedback.</li>
+          <li>Met deadlines while ensuring quality standards and attention to detail.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Projects overview -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <!-- Project 1 -->
+      <article class="project-card">
+        <h3><a href="project1.html">Project 1: Active Directory Setup & Management</a></h3>
+        <figure>
+          <img src="images/Project_1.png" alt="Screenshot of Active Directory setup" style="max-width:600px; height:auto; border:1px solid #ccc; border-radius:8px;"
+          class="project-screenshot">
+          <figcaption>Example of Windows Server Active Directory setup.</figcaption>
+        </figure>
+        <p>
+          Configured and managed Active Directory in Windows Server to create and organize users, groups, and organizational units. 
+          Practiced system administration fundamentals such as permissions and policies.
+        </p>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card">
+        <h3><a href="project2.html">Project 2: Theater Inventory System (Hash Tables)</a></h3>
+        <figure>
+          <img src="images/P2.png" alt="Screenshot of Theater Inventory CLI program" class="project-screenshot">
+          <figcaption>Command-line simulation of theater inventory management.</figcaption>
+        </figure>
+        <p>
+          Implemented a hash table in C to simulate a theater inventory system. Features include buying supplies, selling items, 
+          updating prices, and calculating total revenue and complexity of operations.
+        </p>
+      </article>
+    </section>
+
+    <!-- Skills and activities -->
+    <section id="skills" class="card">
+      <h2>Skills & Activities</h2>
+      <div class="two-col">
+        <div>
+          <h3>Technical</h3>
+          <ul class="tags">
+            <li>C</li><li>Python</li><li>Java</li><li>Active Directory</li><li>Azure Sentinel (basic)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Other</h3>
+          <ul class="tags">
+            <li>Computer Assembly</li><li>English</li><li>Spanish</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Extracurricular</h3>
+      <ul class="bullets">
+        <li>Society of Hispanic Professional Engineers — Member</li>
+        <li>Association for Computing Machinery — Member</li>
+        <li>KnightHacks — Member</li>
+        <li>Job Shadow: Shadowed IT Architect at NASA</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
